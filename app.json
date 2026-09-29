@@ -1,17 +1,20 @@
 {
   "expo": {
-    "name": "bus-lanka",
+    "name": "දුර ගමන් බස්",
     "slug": "bus-lanka",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "backgroundColor": "#FFF8EE",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "lk.buslanka.app"
     },
     "android": {
+      "package": "lk.buslanka.app",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#8B1A1A",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
